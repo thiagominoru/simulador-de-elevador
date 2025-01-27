@@ -80,3 +80,5 @@ Faltou criatividade para fazer uma interface intuitiva relacionado elevador.
 &nbsp;
 
 ## 👀 _Preview_
+![image alt](https://github.com/thiagominoru/simulador-de-elevador/blob/main/preview_1.png?raw=true)
+![image alt](https://github.com/thiagominoru/simulador-de-elevador/blob/main/preview_2.png?raw=true)
