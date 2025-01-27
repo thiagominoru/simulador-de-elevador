@@ -40,7 +40,7 @@ body {
 	justify-content: center;
 	flex-direction: column;
 	min-height: 100vh;
-	background-image: url("/assets/background_rain.gif");
+	background-image: url("../assets/background_rain.gif");
 	z-index: 1;
 }
 
@@ -52,7 +52,7 @@ body::before {
 	left: 0;
 	right: 0;
 	height: 100%;
-	background-image: url("/assets/background_rain.gif");
+	background-image: url("../assets/background_rain.gif");
 	background-size: cover;
 	filter: brightness(0.2) blur(4px);
 	transform: scaleX(-1);
