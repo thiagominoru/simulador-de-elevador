@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="/css/style.css" />
+		<title>Elevador</title>
+	</head>
+	<body>
+		<main>
+			<section class="section-1">
+				<h1>Simulador-Elevador</h1>
+				<br />
+				<a
+					href="https://www.linkedin.com/in/thiago-matsuzaki-22241b219/"
+					>by thiagomatsuzaki ✌</a
+				>
+			</section>
+			<div></div>
+			<div id="container__panel">
+				<div class="display">
+					<div class="container__display-chevron">
+						<svg
+							id="arrow-up"
+							xmlns="http://www.w3.org/2000/svg"
+							width="24"
+							height="24"
+							viewBox="0 0 24 24"
+							fill="currentColor"
+							class="icon icon-tabler icons-tabler-filled icon-tabler-triangle"
+						>
+							<path stroke="none" d="M0 0h24v24H0z" fill="none" />
+							<path
+								d="M12 1.67a2.914 2.914 0 0 0 -2.492 1.403l-8.11 13.537a2.914 2.914 0 0 0 2.484 4.385h16.225a2.914 2.914 0 0 0 2.503 -4.371l-8.116 -13.546a2.917 2.917 0 0 0 -2.494 -1.408z"
+							/>
+						</svg>
+						<svg
+							id="arrow-down"
+							xmlns="http://www.w3.org/2000/svg"
+							width="24"
+							height="24"
+							viewBox="0 0 24 24"
+							fill="currentColor"
+							class="icon icon-tabler icons-tabler-filled icon-tabler-triangle-inverted"
+						>
+							<path stroke="none" d="M0 0h24v24H0z" fill="none" />
+							<path
+								d="M20.118 3h-16.225a2.914 2.914 0 0 0 -2.503 4.371l8.116 13.549a2.917 2.917 0 0 0 4.987 .005l8.11 -13.539a2.914 2.914 0 0 0 -2.486 -4.386z"
+							/>
+						</svg>
+					</div>
+					<p id="display-andar">1</p>
+				</div>
+				<div class="container__panel-buttons">
+					<button id="button__andar-3" type="button">4</button>
+					<button id="button__andar-2" type="button">3</button>
+					<button id="button__andar-1" type="button">2</button>
+					<button id="button__andar-0" type="button">1</button>
+				</div>
+			</div>
+			<div id="container__andares">
+				<div class="andar" id="andar-3">
+					<p>4</p>
+				</div>
+				<div class="andar" id="andar-2">
+					<p>3</p>
+				</div>
+				<div class="andar" id="andar-1">
+					<p>2</p>
+				</div>
+				<div class="andar" id="andar-0">
+					<p>1</p>
+					<div id="elevador">
+						<div class="kirby"></div>
+						<div class="porta-frame"></div>
+						<div class="elevador-background"></div>
+						<div class="porta porta-esquerda"></div>
+						<div class="porta porta-direita"></div>
+					</div>
+				</div>
+				<div id="andar-pit"></div>
+			</div>
+		</main>
+		<audio src="/audio/bell.mp3" type="audio/mpeg"></audio>
+	</body>
+	<script defer src="/js/script.js"></script>
+</html>
