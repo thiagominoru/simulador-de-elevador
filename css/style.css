@@ -349,7 +349,7 @@ Elevador
 	left: 40px;
 	width: 80px;
 	height: 80px;
-	background-image: url("/assets/kirby.png");
+	background-image: url("../assets/kirby.png");
 	background-size: contain;
 	background-repeat: no-repeat;
 	filter: brightness(0.5);
